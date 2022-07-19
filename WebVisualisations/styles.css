@@ -1,0 +1,32 @@
+
+
+h1 {
+  color: blue;
+}
+<div class="bg-image" 
+     style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+            height: 100vh">
+</div>
+.purple {
+  color: purple;
+}
+
+#red {
+  color: red;
+}
+
+#big-font {
+  font-size: 40px;
+}
+
+#bold-font {
+  font-weight: bold;
+}
+
+.back-black {
+  background-color: #000;
+}
+
+.small-font {
+  font-size: 10px;
+}
