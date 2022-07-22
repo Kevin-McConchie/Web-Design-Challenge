@@ -7,60 +7,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Latitude Visualisation</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/stylesheet.css">
   </head>
   <body>
 <!-- NAVBAR =================================-->
-<!-- HOME LINK -->
-<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Latitude Visualisation</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-    </div> -->
-    <!-- /HOME LINK -->
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <div class="container-fluid" >
+    <a class="navbar-brand" style="background-color: #42d1d1;"
+     href= Index.html>Latitude</a>
 
-    <!-- DROPDOWN BUTTON TO PLOTS -->
-    <!-- <div class="dropdown"aria-labelledby="navbarDropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">Latitude Plots
-      <span class="caret"></span></button>
+<!-- toggle button for mobile navigation -->
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+  aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span><ul class="nav-item dropdown">
+  </button>
+
+    <!-- hamburger button -->
+    <div class="collapse navbar-collapse justify-content-end"
+    id="navbarSupportedContent">
+
+    <ul class="navbar-nav">
+    <li class="dropdown-menu"></li>
+    <a class="nav-link dropdown-toggle" href="#" aria-haspopup="true" 
+    id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Plots
+    <span class="caret"></span></a>
+      <!-- Plot Dropdown -->
       <ul class="dropdown-menu">
-        <li><a href="maxtemperature.html">Max Temperature</a></li>
-        <li><a href="humidity.html">Humidity</a></li>
-        <li><a href="cloudiness.html">Cloudiness</a></li>
-        <li><a href="windspeed.html">Wind Speed</a></li>
-      </ul>
-    </div> -->
-    <!--/DROPDOWN BUTTON TO PLOTS -->
-  <!-- </div>
-</nav> -->
-<!-- /NAVBAR =================================-->
-  <h1>Hi</h1>
-<!-- WEATHER IMAGE -->
-<div class= "figure">
-<figure>
-<img src='assests/background.webp' alt="Lightening Strike" >
-<figcaption>Lightening Strike</figcaption>
-</figure>
+      <li><a href="./assets/temperature.html">Max Temperature</a></li>
+      <li><a href="./assets/humidity.html">Humidity</a></li>
+      <li><a href="./assets/cloudiness.html">Cloudiness</a></li>
+      <li><a href="./assets/windspeed.html">Wind Speed</a></li>
+      </ul> 
+      <!-- Comparison Link -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="./assets/Comparison">Comparison</a>
+      </li>
+      <!-- Data Link -->
+      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="./assets/Data.html">Data</a>
+      </li>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Summary Box -->
+<div class = "container">
+  <section class = "row">
+  <div class="col-md-8">
+  <article class= "description-content">
+    <h1 class= "description-header">Summary: Latitude vs. X</h1>
+    <hr class="description-hr"></hr>
+    <img src= ./visualisations/humidity_map.png alt="" id="description-image"/>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quaerat, dolore eligendi alias optio eius cum nemo commodi debitis quidem quo reprehenderit iure rerum vero! Iste reprehenderit modi eveniet totam.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam atque soluta officia vero, qui voluptatem modi debitis a. Laudantium nobis corrupti aliquid in accusamus, nihil aspernatur sequi saepe possimus distinctio?</p>
+  </article>
+  </div>
+  
+  <div class="col-md-4">
+    <section id="navigation">
+      <div class="image navigation">
+        <h2 class= "description-image navigation">Visualisations</h2>
+        <hr class="description-hr"></hr>
+        <a href="./assets/temperature.html"><img src= ./visualisations/humidity_map.png alt="" id="description-image"/></a>
+        <a href="./assets/humidity.html"><img src= ./visualisations/humidity_map.png alt="" id="description-image"/></a>
+        <a href="./assets/cloudiness.html"><img src= ./visualisations/humidity_map.png alt="" id="description-image"/></a>
+        <a href="./assets/windspeed.html"><img src= ./visualisations/humidity_map.png alt="" id="description-image"/></a>
+  
+      </div>
+
+    </section>
+  </div>
+</section> 
 </div>
-  <br>
-<br>
-  
-  <img src="https://static.wikia.nocookie.net/spongebob/images/4/46/SVG_SpongeBob_SquarePants.svg/revision/latest/scale-to-width-down/195?cb=20181117230211" alt="Spongebob!" />
-  
-        
+
+
+
+
+
+
+
+
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   </body>
 </html>
