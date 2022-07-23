@@ -11,20 +11,29 @@
 }
 
 img {
-    max-width:50%;
+    max-width:10%;
     height:auto;
 }
+
+
+.side-box {
+    max-width:10%;
+    height:auto;
+}
+
+
+
 .stronger{
     font-weight: bold;
 }
 
-.firstimage {
+/* .firstimage {
     width: 20%; 
     float: left; 
     margin : 5px;
-    src: url("Images/latitude_vs_temperature_ud_01.png")
+    src: url("./visualisations/lat_map.png") */
 
-}
+/* } */
 
 .whiteback{
     background-color: white;
