@@ -1,7 +1,7 @@
 body {  background: #f1f1f1;
 }
 
-.p1 {font-family: Arial, Helvetica, sans-serif;
+.p {font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar-brand{min-height: 50px;
@@ -15,17 +15,16 @@ body {  background: #f1f1f1;
 
 
 img {
-    max-width:45%;
+    max-width:49%;
     height:auto;
-    color: #fff;
-    
+    color: #fff;  
 }
 h1 {
-font-size: 50px
+font-size: 40px
 }
 
 h3 {
-font-size: 30px;
+font-size: px;
 color: #5191fd;
 
 }
@@ -54,11 +53,11 @@ text-decoration: none;
 }
 
 /* Styling the header, giving it a height, a background color, and some top padding */
-/* .header {
+.header {
 height: 200px;
 padding-top: 20px;
 background: #cdcdcd;
-} */
+}
 
 
 .header h1 {
@@ -69,11 +68,11 @@ text-align: center;
 }
 
 /* Giving the .post element margin on 3 sides */
-/* .post {
+.post {
 margin-top: 50px;
 margin-right: 100px;
 margin-left: 100px;
-} */
+}
 
 #nav-select {
 visibility: hidden;
@@ -85,10 +84,10 @@ visibility: hidden;
     padding: 10px;
 }
 
-/* .post {
+.post {
     margin-right: 30px;
     margin-left: 30px;
-} */
+}
 
     ul {
     visibility: hidden;
