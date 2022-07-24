@@ -27,13 +27,17 @@ font-size: 40px
 h3 {
 font-size: px;
 color: #5191fd;
-
 }
+
+.main-box {
+    text-align: justify;
+  }
+
 
 /* Giving our navbar some padding and a background color */
 .navbar {
 padding: 10px;
-background: #5191fd;
+background: #051b41;
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -43,7 +47,7 @@ padding: 20px;
 margin-right: 10px;
 margin-left: 10px;
 cursor: pointer;
-background: #f1f1f1;
+background: #f0f0f1;
 border-radius: 3px;
 }
 
