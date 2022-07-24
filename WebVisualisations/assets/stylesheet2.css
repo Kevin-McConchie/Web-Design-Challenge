@@ -5,18 +5,19 @@ body {  background: #f1f1f1;
 }
 
 .navbar-brand{min-height: 50px;
-    padding: 30px;
+    padding: 20px;
     margin: -10px;
     margin-left: 10px;
     font-weight: 750;
     font-size: 30px;
-    background-color: #48a6dd;
+    background-color: lightgray;
+    color: teal;
     }
 
 
 
 img {
-    max-width:49%;
+    max-width:100%;
     height:auto;
     color: #fff;  
 }
@@ -31,13 +32,13 @@ color: #5191fd;
 
 .main-box {
     text-align: justify;
-  }
+}
 
 
 /* Giving our navbar some padding and a background color */
 .navbar {
 padding: 10px;
-background: #051b41;
+color: rgb(0, 173, 253);
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -47,8 +48,9 @@ padding: 20px;
 margin-right: 10px;
 margin-left: 10px;
 cursor: pointer;
-background: #f0f0f1;
-border-radius: 3px;
+background: lightgray;
+border-radius: 3px
+color rgb(0, 173, 253);
 }
 
 /* Getting rid of the default link styles here */
@@ -68,8 +70,8 @@ background: #cdcdcd;
 .header h1 {
 padding: 60px;
 margin: 0;
-color: #000;
-text-align: center;
+color: rgb(0, 173, 253);
+text-align: justify;
 }
 
 /* Giving the .post element margin on 3 sides */
