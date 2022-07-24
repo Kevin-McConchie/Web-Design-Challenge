@@ -10,6 +10,7 @@ body {  background: #f1f1f1;
     margin-left: 10px;
     font-weight: 750;
     font-size: 30px;
+    background-color: #48a6dd;
     }
 
 
@@ -42,7 +43,7 @@ padding: 20px;
 margin-right: 10px;
 margin-left: 10px;
 cursor: pointer;
-background: #fff;
+background: #f1f1f1;
 border-radius: 3px;
 }
 
