@@ -1,44 +1,40 @@
-body {  background: #f1f1f1;
+body {  background: #f0f0f9;
 }
 
 .p {font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar-brand{min-height: 50px;
-    padding: 20px;
-    margin: -10px;
-    margin-left: 10px;
-    font-weight: 750;
-    font-size: 30px;
-    background-color: lightgray;
-    color: teal;
-    }
-
+padding: 20px;
+margin: -10px;
+margin-left: 10px;
+font-weight: 750;
+font-size: 30px;
+background-color: rgb(194, 227, 255);
+}
 
 
 img {
     max-width:100%;
     height:auto;
-    color: #fff;  
-}
-h1 {
+    color: #fff;
+} 
+
+.h1 {
 font-size: 40px
 }
 
-h3 {
+.h3 {
 font-size: px;
 color: #5191fd;
-}
-
-.main-box {
-    text-align: justify;
 }
 
 
 /* Giving our navbar some padding and a background color */
 .navbar {
 padding: 10px;
-color: rgb(0, 173, 253);
+color: rgb(0, 0, 0);
+background: #cdcdcd;
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -48,9 +44,8 @@ padding: 20px;
 margin-right: 10px;
 margin-left: 10px;
 cursor: pointer;
-background: lightgray;
+background: rgb(194, 227, 255);
 border-radius: 3px
-color rgb(0, 173, 253);
 }
 
 /* Getting rid of the default link styles here */
