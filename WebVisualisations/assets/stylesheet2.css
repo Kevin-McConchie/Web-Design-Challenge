@@ -13,12 +13,15 @@ font-size: 30px;
 background-color: rgb(194, 227, 255);
 }
 
+.navbar-toggler-icon{background-color: rgb(6, 28, 48)
+}
 
 img {
     max-width:100%;
     height:auto;
     color: #fff;
 } 
+
 
 .h1 {
 font-size: 40px
@@ -34,7 +37,7 @@ color: #5191fd;
 .navbar {
 padding: 10px;
 color: rgb(0, 0, 0);
-background: #cdcdcd;
+background: #68c8ff;
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
